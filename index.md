@@ -20,20 +20,40 @@
 •	An interactive website developed using HTML/CSS, Flask and sqlite
 •	Allows admin to add orders from suppliers,view all orders, view available products, add products in bill and generate bill.
 
-<!-- Carousel for Stock Management System -->
-<div class="carousel">
-    <div class="carousel-images">
-        <img src="images/stockManagement1.PNG" >
-        <img src="images/stockManagement2.PNG" >
-        <img src="images/stockManagement3.PNG" >
-        <img src="images/stockManagement4.PNG" >
-        <img src="images/stockManagement5.PNG" >
-        <img src="images/stockManagement6.PNG" >
-        <!-- Add more images as needed -->
+<!-- Carousel for Portfolio -->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/stockManagement1.PNG" alt="First slide">
     </div>
-    <a class="arrow left-arrow" onclick="moveSlide(-1)">&#10094;</a>
-    <a class="arrow right-arrow" onclick="moveSlide(1)">&#10095;</a>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/stockManagement2.PNG" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/stockManagement3.PNG" alt="Third slide">
+    </div>
+      <div class="carousel-item active">
+      <img class="d-block w-100" src="images/stockManagement4.PNG" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/stockManagement5.PNG" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/stockManagement6.PNG" alt="Third slide">
+    </div>
+    <!-- Add more items as needed -->
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
+<!-- End Carousel -->
+
 
 ---
 **-Expense Management System**
