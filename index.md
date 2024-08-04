@@ -15,15 +15,19 @@
 
 ### Web Development
 
-[Expense Management System](/project1)
+Stock Management System
 <img src="images/IRIS.PNG"/>
 
 ---
-[Online Automotive Parts Marketplace](/project2)
+Expense Management System
+<img src="images/IRIS.PNG"/>
+
+---
+Online Automotive Parts Marketplace
 <img src="images/predictor.PNG"/>
 
 ---
-[Airline Reservation System](/project1)
+Airline Reservation System
 <img src="images/IRIS.PNG"/>
 
 ---
