@@ -23,8 +23,12 @@
 <!-- Carousel for Stock Management System -->
 <div class="carousel">
     <div class="carousel-images">
-        <img src="images/IRIS.PNG" alt="Stock Management System Image 1">
-        <img src="images/IRIS.PNG" alt="Stock Management System Image 2">
+        <img src="images/stockManagement1.PNG" >
+        <img src="images/stockManagement2.PNG" >
+        <img src="images/stockManagement3.PNG" >
+        <img src="images/stockManagement4.PNG" >
+        <img src="images/stockManagement5.PNG" >
+        <img src="images/stockManagement6.PNG" >
         <!-- Add more images as needed -->
     </div>
     <a class="arrow left-arrow" onclick="moveSlide(-1)">&#10094;</a>
