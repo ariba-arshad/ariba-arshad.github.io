@@ -17,7 +17,7 @@
    {% seo %}
    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
    <style>
-       .carousel {
+      .carousel {
     position: relative;
     width: 80%;
     margin: auto;
@@ -27,11 +27,13 @@
 
 .carousel-images {
     display: flex;
+    width: 100%; /* Full width of the carousel container */
     transition: transform 0.5s ease-in-out;
 }
 
 .carousel-images img {
-    flex: 0 0 100%; /* Each image takes up 100% of the carousel width */
+    flex: 0 0 auto; /* Allow the images to have their natural size */
+    width: 25%; /* Adjust this to show more or fewer images in view */
     height: auto; /* Maintain aspect ratio */
 }
 
@@ -62,6 +64,7 @@
 .left-arrow:hover, .right-arrow:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
 
    </style>
    <!--[if lt IE 9]>
