@@ -21,7 +21,7 @@
 •	Allows admin to add orders from suppliers,view all orders, view available products, add products in bill and generate bill.
 
 <!-- Carousel for Portfolio -->
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/stockManagement1.PNG">
@@ -64,7 +64,7 @@
 •	Used Flask with HTML/CSS and MSSQL for development
 
 <!-- Carousel for Portfolio -->
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/ex1.PNG">
@@ -99,7 +99,7 @@
 •	Used Flask with HTML/CSS and MSSQL for development
 
 <!-- Carousel for Portfolio -->
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/sda1.PNG">
@@ -142,7 +142,7 @@
 •	Used HTML/CSS, MSSQL and PHP for development.
 
 <!-- Carousel for Portfolio -->
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/stockManagement1.PNG">
