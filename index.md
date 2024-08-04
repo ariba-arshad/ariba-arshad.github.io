@@ -16,7 +16,9 @@
 ### Web Development
 
 -- Stock Management System --
+
 •	An interactive website developed using HTML/CSS, Flask and sqlite
+
 •	Allows admin to add orders from suppliers,view all orders, view available products, add products in bill and generate bill.
 
 <img src="images/IRIS.PNG"/>
