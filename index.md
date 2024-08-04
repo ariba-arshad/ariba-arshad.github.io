@@ -24,22 +24,22 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/stockManagement1.PNG" alt="First slide">
+      <img src="images/stockManagement1.PNG">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/stockManagement2.PNG" alt="Second slide">
+      <img  src="images/stockManagement2.PNG" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/stockManagement3.PNG" alt="Third slide">
+      <img  src="images/stockManagement3.PNG">
     </div>
       <div class="carousel-item active">
-      <img class="d-block w-100" src="images/stockManagement4.PNG" alt="First slide">
+      <img  src="images/stockManagement4.PNG">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/stockManagement5.PNG" alt="Second slide">
+      <img  src="images/stockManagement5.PNG">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/stockManagement6.PNG" alt="Third slide">
+      <img src="images/stockManagement6.PNG">
     </div>
     <!-- Add more items as needed -->
   </div>
