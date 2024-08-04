@@ -4,12 +4,13 @@
 
 ### Machine Learning 
 
-[Back Propagation from scratch on IRIS dataset](/project1)
-<img src="images/IRIS.PNG"/>
-
----
 [Student Grade Predictor](/project2)
 <img src="images/predictor.PNG"/>
+
+---
+
+[Back Propagation from scratch on IRIS dataset](/project1)
+<img src="images/IRIS.PNG"/>
 
 ---
 
