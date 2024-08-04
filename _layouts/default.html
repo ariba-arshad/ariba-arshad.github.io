@@ -18,42 +18,51 @@
    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
    <style>
        .carousel {
-           position: relative;
-           width: 80%;
-           margin: auto;
-           overflow: hidden;
-       }
-       .carousel-images {
-           display: flex;
-           transition: transform 0.5s ease-in-out;
-       }
-       .carousel-images img {
-           width: 100%;
-           height: auto;
-       }
-       .arrow {
-           position: absolute;
-           top: 50%;
-           width: auto;
-           padding: 16px;
-           margin-top: -22px;
-           color: white;
-           font-weight: bold;
-           font-size: 24px;
-           transition: background-color 0.6s ease;
-           cursor: pointer;
-       }
-       .left-arrow {
-           left: 0;
-           background-color: rgba(0,0,0,0.5);
-       }
-       .right-arrow {
-           right: 0;
-           background-color: rgba(0,0,0,0.5);
-       }
-       .left-arrow:hover, .right-arrow:hover {
-           background-color: rgba(0,0,0,0.8);
-       }
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #ddd; /* Optional: border for better visibility */
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    flex: 0 0 100%; /* Each image takes up 100% of the carousel width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+    z-index: 1000; /* Ensure arrows are above images */
+}
+
+.left-arrow {
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.right-arrow {
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.left-arrow:hover, .right-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
    </style>
    <!--[if lt IE 9]>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
