@@ -2,34 +2,29 @@
 
 ---
 
-### Category Name 1 
+### Machine Learning 
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Back Propagation from scratch on IRIS dataset](/project1)
+<img src="images/IRIS.PNG"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Student Grade Predictor](/project2)
+<img src="images/predictor.PNG"/>
 
 ---
 
-### Category Name 2
+### Web Development
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+[Expense Management System](/project1)
+<img src="images/IRIS.PNG"/>
+
+---
+[Online Automotive Parts Marketplace](/project2)
+<img src="images/predictor.PNG"/>
+
+---
+[Airline Reservation System](/project1)
+<img src="images/IRIS.PNG"/>
 
 ---
 
-
-
-
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
