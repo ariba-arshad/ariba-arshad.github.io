@@ -8,11 +8,11 @@ We got data on students marks from Kaggle(https://www.kaggle.com/datasets/datasc
 
 ### 2. Data Visualization with Matplotlib
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/visualize.png"/>
 
 ### 3. Methodology
 
-
+MLPClassifier with 4 hidden layers of size 100,80,40 and 20; with 0.001 learning rate and 1000 epochs. 
 
 ### 4. Frontend
 
