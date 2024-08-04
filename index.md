@@ -154,23 +154,21 @@
 <div id="carouselAirlineReservation" class="carousel slide" data-ride="carousel" data-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/stockManagement1.PNG">
+      <img src="images/db1.PNG">
     </div>
     <div class="carousel-item">
-      <img  src="images/stockManagement2.PNG" >
+      <img  src="images/db2.PNG" >
     </div>
     <div class="carousel-item">
-      <img  src="images/stockManagement3.PNG">
+      <img  src="images/db3.PNG">
     </div>
       <div class="carousel-item">
-      <img  src="images/stockManagement4.PNG">
+      <img  src="images/db4.PNG">
     </div>
     <div class="carousel-item">
-      <img  src="images/stockManagement5.PNG">
+      <img  src="images/db5.PNG">
     </div>
-    <div class="carousel-item">
-      <img src="images/stockManagement6.PNG">
-    </div>
+    
     <!-- Add more items as needed -->
   </div>
   <a class="carousel-control-prev" href="#carouselAirlineReservation" role="button" data-slide="prev">
