@@ -21,7 +21,7 @@
 •	Allows admin to add orders from suppliers,view all orders, view available products, add products in bill and generate bill.
 
 <!-- Carousel for Portfolio -->
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+<div id="carouselStockManagement" class="carousel slide" data-ride="carousel" data-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/stockManagement1.PNG">
@@ -43,11 +43,11 @@
     </div>
     <!-- Add more items as needed -->
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselStockManagement" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselStockManagement"" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -64,7 +64,7 @@
 •	Used Flask with HTML/CSS and MSSQL for development
 
 <!-- Carousel for Portfolio -->
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+<div id="carouselExpenseManagement" class="carousel slide" data-ride="carousel" data-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/ex1.PNG">
@@ -81,11 +81,11 @@
     
     <!-- Add more items as needed -->
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExpenseManagement" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExpenseManagement" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -99,7 +99,7 @@
 •	Used Flask with HTML/CSS and MSSQL for development
 
 <!-- Carousel for Portfolio -->
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+<div id="carouselAutomotiveParts" class="carousel slide" data-ride="carousel" data-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/sda1.PNG">
@@ -124,11 +124,11 @@
     </div>
     <!-- Add more items as needed -->
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselAutomotiveParts" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselAutomotiveParts" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -142,7 +142,7 @@
 •	Used HTML/CSS, MSSQL and PHP for development.
 
 <!-- Carousel for Portfolio -->
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+<div id="carouselAirlineReservation" class="carousel slide" data-ride="carousel" data-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/stockManagement1.PNG">
@@ -164,11 +164,11 @@
     </div>
     <!-- Add more items as needed -->
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselAirlineReservation" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselAirlineReservation" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
