@@ -109,13 +109,15 @@
    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
    <script>
        let index = 0;
-       const slides = document.querySelectorAll('.carousel-images img');
+const slides = document.querySelectorAll('.carousel-images img');
+const totalSlides = slides.length;
 
-       function moveSlide(step) {
-           index = (index + step + slides.length) % slides.length;
-           const offset = -index * 100;
-           document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
-       }
+function moveSlide(step) {
+    index = (index + step + totalSlides) % totalSlides;
+    const offset = -index * 100; // Move by the width of one image
+    document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
+}
+
    </script>
 </body>
 </html>
