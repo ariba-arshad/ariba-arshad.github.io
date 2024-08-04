@@ -18,6 +18,7 @@
 **-Stock Management System**
 
 •	An interactive website developed using HTML/CSS, Flask and sqlite
+
 •	Allows admin to add orders from suppliers,view all orders, view available products, add products in bill and generate bill.
 
 <!-- Carousel for Portfolio -->
@@ -56,11 +57,15 @@
 
 
 ---
+
 **-Expense Management System**
 
-•	Designed and implemented a web-based expense management system following a Software Development Life Cycle (SDLC) methodology 
+•	Designed and implemented a web-based expense management system following a Software Development Life Cycle (SDLC) methodology
+
 •	Created System Requirements Specification (SRS) document including UML diagrams
+
 •	Utilized Figma for UI/UX design 
+
 •	Used Flask with HTML/CSS and MSSQL for development
 
 <!-- Carousel for Portfolio -->
@@ -93,9 +98,11 @@
 <!-- End Carousel -->
 
 ---
+
 **-Online Automotive Parts Marketplace**
 
 •	An interactive website implemented using the Software Design Principles and Models to facilitate seamless interactions between buyers, sellers and suppliers.
+
 •	Used Flask with HTML/CSS and MSSQL for development
 
 <!-- Carousel for Portfolio -->
@@ -136,9 +143,11 @@
 <!-- End Carousel -->
 
 ---
+
 **-Airline Reservation System**
 
 •	Designed and implemented an innovative airline reservation system website with key functionalities including booking and canceling flights (one-way or round-trip), viewing tickets, and providing feedback
+
 •	Used HTML/CSS, MSSQL and PHP for development.
 
 <!-- Carousel for Portfolio -->
@@ -174,5 +183,6 @@
   </a>
 </div>
 <!-- End Carousel -->
+
 ---
 
