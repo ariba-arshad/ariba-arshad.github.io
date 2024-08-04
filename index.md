@@ -20,7 +20,16 @@
 •	An interactive website developed using HTML/CSS, Flask and sqlite
 •	Allows admin to add orders from suppliers,view all orders, view available products, add products in bill and generate bill.
 
-<img src="images/IRIS.PNG"/>
+<!-- Carousel for Stock Management System -->
+<div class="carousel">
+    <div class="carousel-images">
+        <img src="images/IRIS.PNG" alt="Stock Management System Image 1">
+        <img src="images/IRIS.PNG" alt="Stock Management System Image 2">
+        <!-- Add more images as needed -->
+    </div>
+    <a class="arrow left-arrow" onclick="moveSlide(-1)">&#10094;</a>
+    <a class="arrow right-arrow" onclick="moveSlide(1)">&#10095;</a>
+</div>
 
 ---
 **-Expense Management System**
@@ -30,7 +39,16 @@
 •	Utilized Figma for UI/UX design 
 •	Used Flask with HTML/CSS and MSSQL for development
 
-<img src="images/IRIS.PNG"/>
+<!-- Carousel for Expense Management System -->
+<div class="carousel">
+    <div class="carousel-images">
+        <img src="images/IRIS.PNG" alt="Expense Management System Image 1">
+        <img src="images/IRIS.PNG" alt="Expense Management System Image 2">
+        <!-- Add more images as needed -->
+    </div>
+    <a class="arrow left-arrow" onclick="moveSlide(-1)">&#10094;</a>
+    <a class="arrow right-arrow" onclick="moveSlide(1)">&#10095;</a>
+</div>
 
 ---
 **-Online Automotive Parts Marketplace**
@@ -38,7 +56,16 @@
 •	An interactive website implemented using the Software Design Principles and Models to facilitate seamless interactions between buyers, sellers and suppliers.
 •	Used Flask with HTML/CSS and MSSQL for development
 
-<img src="images/predictor.PNG"/>
+<!-- Carousel for Online Automotive Parts Marketplace -->
+<div class="carousel">
+    <div class="carousel-images">
+        <img src="images/predictor.PNG" alt="Online Automotive Parts Marketplace Image 1">
+        <img src="images/predictor.PNG" alt="Online Automotive Parts Marketplace Image 2">
+        <!-- Add more images as needed -->
+    </div>
+    <a class="arrow left-arrow" onclick="moveSlide(-1)">&#10094;</a>
+    <a class="arrow right-arrow" onclick="moveSlide(1)">&#10095;</a>
+</div>
 
 ---
 **-Airline Reservation System**
@@ -46,7 +73,16 @@
 •	Designed and implemented an innovative airline reservation system website with key functionalities including booking and canceling flights (one-way or round-trip), viewing tickets, and providing feedback
 •	Used HTML/CSS, MSSQL and PHP for development.
 
-<img src="images/IRIS.PNG"/>
+<!-- Carousel for Airline Reservation System -->
+<div class="carousel">
+    <div class="carousel-images">
+        <img src="images/IRIS.PNG" alt="Airline Reservation System Image 1">
+        <img src="images/IRIS.PNG" alt="Airline Reservation System Image 2">
+        <!-- Add more images as needed -->
+    </div>
+    <a class="arrow left-arrow" onclick="moveSlide(-1)">&#10094;</a>
+    <a class="arrow right-arrow" onclick="moveSlide(1)">&#10095;</a>
+</div>
 
 ---
 
