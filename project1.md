@@ -15,7 +15,5 @@ loss at each output neuron=
 0.008
 0.954
 0.962
-
-### Code:
   
 
