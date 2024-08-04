@@ -67,23 +67,18 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/stockManagement1.PNG">
+      <img src="images/ex1.PNG">
     </div>
     <div class="carousel-item">
-      <img  src="images/stockManagement2.PNG" >
+      <img  src="images/ex2.PNG" >
     </div>
     <div class="carousel-item">
-      <img  src="images/stockManagement3.PNG">
+      <img  src="images/ex8.PNG">
     </div>
       <div class="carousel-item">
-      <img  src="images/stockManagement4.PNG">
+      <img  src="images/ex9.PNG">
     </div>
-    <div class="carousel-item">
-      <img  src="images/stockManagement5.PNG">
-    </div>
-    <div class="carousel-item">
-      <img src="images/stockManagement6.PNG">
-    </div>
+    
     <!-- Add more items as needed -->
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
