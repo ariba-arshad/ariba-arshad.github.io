@@ -32,7 +32,7 @@
     <div class="carousel-item">
       <img  src="images/stockManagement3.PNG">
     </div>
-      <div class="carousel-item active">
+      <div class="carousel-item">
       <img  src="images/stockManagement4.PNG">
     </div>
     <div class="carousel-item">
