@@ -17,7 +17,7 @@
    {% seo %}
    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
    <style>
-      .carousel {
+ .carousel {
     position: relative;
     width: 80%;
     margin: auto;
@@ -25,16 +25,25 @@
     border: 1px solid #ddd; /* Optional: border for better visibility */
 }
 
+/* Default to horizontal layout */
 .carousel-images {
     display: flex;
-    width: 100%; /* Full width of the carousel container */
     transition: transform 0.5s ease-in-out;
 }
 
 .carousel-images img {
-    flex: 0 0 auto; /* Allow the images to have their natural size */
-    width: 25%; /* Adjust this to show more or fewer images in view */
+    flex: 0 0 auto; /* Allow images to have their natural size */
+    width: 100%; /* For horizontal layout */
     height: auto; /* Maintain aspect ratio */
+}
+
+.carousel.vertical .carousel-images {
+    flex-direction: column; /* Switch to vertical layout */
+}
+
+.carousel.vertical .carousel-images img {
+    width: auto; /* Maintain image aspect ratio for vertical */
+    height: 100%; /* Full height for vertical layout */
 }
 
 .arrow {
@@ -64,7 +73,6 @@
 .left-arrow:hover, .right-arrow:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
 
    </style>
    <!--[if lt IE 9]>
@@ -108,15 +116,40 @@
    </div>
    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
    <script>
-       let index = 0;
-const slides = document.querySelectorAll('.carousel-images img');
-const totalSlides = slides.length;
+       document.addEventListener('DOMContentLoaded', () => {
+    const carousel = document.querySelector('.carousel');
+    const images = document.querySelectorAll('.carousel-images img');
 
-function moveSlide(step) {
-    index = (index + step + totalSlides) % totalSlides;
-    const offset = -index * 100; // Move by the width of one image
-    document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
-}
+    function adjustCarousel() {
+        images.forEach(img => {
+            if (img.naturalHeight > img.naturalWidth) {
+                // Image is vertical
+                carousel.classList.add('vertical');
+            } else {
+                // Image is horizontal
+                carousel.classList.remove('vertical');
+            }
+        });
+    }
+
+    // Adjust carousel on page load and window resize
+    adjustCarousel();
+    window.addEventListener('resize', adjustCarousel);
+
+    // Add functionality to arrows
+    let index = 0;
+    const totalSlides = images.length;
+    
+    function moveSlide(step) {
+        index = (index + step + totalSlides) % totalSlides;
+        const offset = -index * (carousel.classList.contains('vertical') ? 100 : 100); 
+        document.querySelector('.carousel-images').style.transform = `translate${carousel.classList.contains('vertical') ? 'Y' : 'X'}(${offset}%)`;
+    }
+
+    document.querySelector('.left-arrow').addEventListener('click', () => moveSlide(-1));
+    document.querySelector('.right-arrow').addEventListener('click', () => moveSlide(1));
+});
+
 
    </script>
 </body>
