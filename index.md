@@ -63,16 +63,39 @@
 •	Utilized Figma for UI/UX design 
 •	Used Flask with HTML/CSS and MSSQL for development
 
-<!-- Carousel for Expense Management System -->
-<div class="carousel">
-    <div class="carousel-images">
-        <img src="images/IRIS.PNG" alt="Expense Management System Image 1">
-        <img src="images/IRIS.PNG" alt="Expense Management System Image 2">
-        <!-- Add more images as needed -->
+<!-- Carousel for Portfolio -->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/stockManagement1.PNG">
     </div>
-    <a class="arrow left-arrow" onclick="moveSlide(-1)">&#10094;</a>
-    <a class="arrow right-arrow" onclick="moveSlide(1)">&#10095;</a>
+    <div class="carousel-item">
+      <img  src="images/stockManagement2.PNG" >
+    </div>
+    <div class="carousel-item">
+      <img  src="images/stockManagement3.PNG">
+    </div>
+      <div class="carousel-item">
+      <img  src="images/stockManagement4.PNG">
+    </div>
+    <div class="carousel-item">
+      <img  src="images/stockManagement5.PNG">
+    </div>
+    <div class="carousel-item">
+      <img src="images/stockManagement6.PNG">
+    </div>
+    <!-- Add more items as needed -->
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
+<!-- End Carousel -->
 
 ---
 **-Online Automotive Parts Marketplace**
@@ -80,16 +103,42 @@
 •	An interactive website implemented using the Software Design Principles and Models to facilitate seamless interactions between buyers, sellers and suppliers.
 •	Used Flask with HTML/CSS and MSSQL for development
 
-<!-- Carousel for Online Automotive Parts Marketplace -->
-<div class="carousel">
-    <div class="carousel-images">
-        <img src="images/predictor.PNG" alt="Online Automotive Parts Marketplace Image 1">
-        <img src="images/predictor.PNG" alt="Online Automotive Parts Marketplace Image 2">
-        <!-- Add more images as needed -->
+<!-- Carousel for Portfolio -->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/sda1.PNG">
     </div>
-    <a class="arrow left-arrow" onclick="moveSlide(-1)">&#10094;</a>
-    <a class="arrow right-arrow" onclick="moveSlide(1)">&#10095;</a>
+    <div class="carousel-item">
+      <img  src="images/sda2.PNG" >
+    </div>
+    <div class="carousel-item">
+      <img  src="images/sda3.PNG">
+    </div>
+      <div class="carousel-item">
+      <img  src="images/sda4.PNG">
+    </div>
+    <div class="carousel-item">
+      <img  src="images/sda5.PNG">
+    </div>
+    <div class="carousel-item">
+      <img src="images/sda6.PNG">
+    </div>
+    <div class="carousel-item">
+      <img src="images/sda7.PNG">
+    </div>
+    <!-- Add more items as needed -->
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
+<!-- End Carousel -->
 
 ---
 **-Airline Reservation System**
@@ -97,16 +146,38 @@
 •	Designed and implemented an innovative airline reservation system website with key functionalities including booking and canceling flights (one-way or round-trip), viewing tickets, and providing feedback
 •	Used HTML/CSS, MSSQL and PHP for development.
 
-<!-- Carousel for Airline Reservation System -->
-<div class="carousel">
-    <div class="carousel-images">
-        <img src="images/IRIS.PNG" alt="Airline Reservation System Image 1">
-        <img src="images/IRIS.PNG" alt="Airline Reservation System Image 2">
-        <!-- Add more images as needed -->
+<!-- Carousel for Portfolio -->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/stockManagement1.PNG">
     </div>
-    <a class="arrow left-arrow" onclick="moveSlide(-1)">&#10094;</a>
-    <a class="arrow right-arrow" onclick="moveSlide(1)">&#10095;</a>
+    <div class="carousel-item">
+      <img  src="images/stockManagement2.PNG" >
+    </div>
+    <div class="carousel-item">
+      <img  src="images/stockManagement3.PNG">
+    </div>
+      <div class="carousel-item">
+      <img  src="images/stockManagement4.PNG">
+    </div>
+    <div class="carousel-item">
+      <img  src="images/stockManagement5.PNG">
+    </div>
+    <div class="carousel-item">
+      <img src="images/stockManagement6.PNG">
+    </div>
+    <!-- Add more items as needed -->
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
-
+<!-- End Carousel -->
 ---
 
