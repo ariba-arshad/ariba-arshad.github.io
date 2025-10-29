@@ -4,7 +4,7 @@
 
 ### AI Agent and Chatbot Development 
 
-[Prrojects](/chatbots)
+[Projects](/chatbots)
 
 ---
 
