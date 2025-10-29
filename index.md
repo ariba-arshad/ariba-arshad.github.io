@@ -2,6 +2,12 @@
 
 ---
 
+### AI Agent and Chatbot Development 
+
+[Prrojects](/chatbots)
+
+---
+
 ### Machine Learning 
 
 [Student Grade Predictor](/project2)
